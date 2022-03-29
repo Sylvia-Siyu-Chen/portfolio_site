@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel'
 import {useState} from "react"
 import spotify from '../img/Spotify.png'
+import './Carousel.css'
 
 
 function CarouselControll() {
@@ -11,12 +12,11 @@ function CarouselControll() {
     };
   
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel activeIndex={index} onSelect={handleSelect} >
             <Carousel.Item>
             <img
                 className="d-block w-100"
                 src = {spotify}
-                height = {400}
                 alt="First slide"
             />
             <Carousel.Caption>
