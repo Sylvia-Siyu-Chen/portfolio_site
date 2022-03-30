@@ -14,7 +14,7 @@ function Home() {
                <div>Hope you will find this website intresting than just reading plain text of my resume</div>
             </div>
             <div className='intro-project'>
-                {/* <CarouselControll/> */}
+                <CarouselControll/>
             </div>
         </div>
 

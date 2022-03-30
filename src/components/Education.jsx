@@ -11,7 +11,7 @@ function Education(){
             </div>
             <div className="edu_text">
                 <img src = {nyuname} width = {800}/>
-                <h3>B.A. in Computer Science with Minor in Mathmatics and Business Studies</h3>
+                <h3><b>B.A. in Computer Science with Minor in Mathmatics and Business Studies</b></h3>
                 <div className='title'>
                     <b>Computer Science</b> relevant coursework:
                 </div>

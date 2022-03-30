@@ -12,15 +12,3 @@
     position: relative 
 }
 
-.intro-project {
-  /* background-color: #282c34; */
-  min-height: 100vh;
-  padding-left: 330px;
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* font-size: calc(10px + 2vmin); */
-  /* color: white; */
-}

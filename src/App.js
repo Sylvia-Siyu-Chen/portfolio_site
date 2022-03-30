@@ -5,6 +5,7 @@ import { Tab, Tabs, Nav, Container, Navbar } from 'react-bootstrap';
 import Intro from './components/Intro';
 import Education from './components/Education';
 import { Menu } from 'antd';
+import Experience from './components/Experience';
 import Home from './components/Home';
 import { Routes ,Route,BrowserRouter as Router} from 'react-router-dom';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
@@ -25,7 +26,7 @@ function App() {
               <Nav.Link href="/home">Home</Nav.Link>
               <Nav.Link href="/education">Education</Nav.Link>
               <Nav.Link href="/project">Projects</Nav.Link>
-              <Nav.Link href="/Carousel">Experience</Nav.Link>
+              <Nav.Link href="/experience">Experience</Nav.Link>
               <Nav.Link href="/foto">Fun Facts</Nav.Link>
               <Nav.Link href="/register">Resume</Nav.Link>
             </Nav>
@@ -37,6 +38,8 @@ function App() {
           <Route path='/project' element={<CarouselControll />}/>
           <Route path='/foto' element={<Education />}/>
           <Route path = '/home' element = {<Home />}/>
+          <Route path = '/experience' element = {< Experience/>}/>
+
         </Routes>
       </Router>
       <header className="App-header">
