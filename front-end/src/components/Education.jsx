@@ -1,4 +1,5 @@
 import './Education.css'
+import {card} from 'react-bootstrap'
 
 function Education(){
     return (
@@ -9,8 +10,10 @@ function Education(){
             <div className="edu_text">
                 <h2>New York University</h2>
                 <h3>B.A. in Computer Science with Minor in Mathmatics and Business Studies</h3>
-                <div>
-                    CS relevant coursework: 
+                <div class = "card">
+                    <div class = "card-body">
+                        CS relevant coursework: 
+                    </div>
                 </div>
                 <div>
                     Business Studies relevant coursework: Financial Accounting
@@ -19,3 +22,5 @@ function Education(){
         </div>
     )
 }
+
+export default Education
