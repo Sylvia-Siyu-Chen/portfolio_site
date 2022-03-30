@@ -15,15 +15,6 @@ const { SubMenu } = Menu;
 
 function App() {
 
-  const state = {
-    current: 'mail',
-  };
-
-  const handleClick = e => {
-    console.log('click ', e);
-    this.setState({ current: e.key });
-  };
-
 
   return (
     <div className="App">

@@ -1,0 +1,31 @@
+.edu_text{
+    text-align: center;
+    color: white;
+    position: static;
+    padding-left: 400px;
+    padding-top: 90px;
+}
+
+.edu_img {
+    padding-top: 90px;
+    padding-right: 900px;
+    padding-left: 100px;
+    position: fixed;
+}
+
+.edu_text h3{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.edu_text div{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title{
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
