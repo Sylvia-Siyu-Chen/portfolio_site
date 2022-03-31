@@ -1,7 +1,7 @@
 import './Experience.css'
 import 'antd/dist/antd.css'
 
-import {Timeline} from 'antd'
+import {Timeline, Progress} from 'antd'
 import {Card} from 'react-bootstrap'
 import {CaretRightFilled} from '@ant-design/icons'
 import bosSci from '../img/Boston_Scientific_Logo.png'
@@ -36,7 +36,12 @@ function Experience(){
                                 <div><CaretRightFilled/> Engaged in <b>application portfolio management(APM)</b>, managed and visualized application inventory</div>
                                 <div><CaretRightFilled/> Worked in a team of three to conduct <b>application scoring and analysis</b> of 106 apps and prepared rationalization roadmap planning for 56 apps</div>
                                 <div><CaretRightFilled/> Co-worked with representatives from 12 domains to optimize APM inventory update process and improved data quality by 15%; established <b>APM inventory-update best practices</b> used by the whole department</div>
+                                <div className='exp_progress'>
+                                    <Progress type='circle' className="white-text" strokeColor={{'0%': '#108ee9', '100%':'#87d068'}} percent={56} width = {80} format={percent => `${percent} apps`}/>
+                                    <Progress type='circle' className="white-text" strokeColor={{'0%': '#108ee9', '100%':'#87d068'}} percent={15} width={80} style={{color:'white'}}/>
+                                    <Progress type='circle' className="white-text" strokeColor={{'0%': '#108ee9', '100%':'#87d068'}} percent={12} width = {80} format={percent => `${percent} domains`}/>
 
+                                </div>
                             </div>
 
                         </Timeline.Item>

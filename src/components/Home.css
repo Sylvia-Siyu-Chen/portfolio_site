@@ -2,13 +2,14 @@
 
 .intro_text div{
     padding-top: 10px;
-    color: whitesmoke
+    color: whitesmoke;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .intro_photo img {
     padding-top: 100px;
     padding-bottom: 30px;
     width: 20%;
-    position: relative 
+    position: relative;
 }
 

@@ -11,12 +11,20 @@
     color: aliceblue;
 }
 
+
+
 .exp_timeline img{
     width: 50%;
 }
 
 .exp_timeline .smaller{
     width: 20%;
+}
+
+.white-text.ant-progress .ant-progress-text {
+    color: aliceblue;
+    font-size: 30;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .exp_timeline Card{
