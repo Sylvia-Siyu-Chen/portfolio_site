@@ -1,0 +1,54 @@
+
+
+.funfacts{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.funfacts .fun_description{
+    color: aliceblue;
+    padding-bottom: 40px;
+}
+
+.funfacts .fun_cat{
+    padding-top: 50px;
+}
+
+
+.funfacts Toast {
+    color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.funfacts Button {
+    margin-top: 40px;
+    color: lightcyan;
+}
+
+.funfacts .fun_card{
+    display: inline-block;
+}
+
+.fun_card .text {
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.fun_card .text del {
+    color: gray;
+}
+
+.fun_card .title{
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: large;
+}
+
+
+.funfacts Container {
+    padding-bottom: 40px;
+}

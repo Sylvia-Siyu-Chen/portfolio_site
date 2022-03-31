@@ -2,42 +2,47 @@ import Carousel from 'react-bootstrap/Carousel'
 import {useState} from "react"
 import spotify from '../img/Spotify.png'
 import './Carousel.css'
+import covid from '../img/Covid.png'
 
 
 function CarouselControll() {
-    const [index, setIndex] = useState(0);
+    // const [index, setIndex] = useState(0);
   
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-    };
+    // const handleSelect = (selectedIndex, e) => {
+    //   setIndex(selectedIndex);
+    // };
   
     return (
         <div className='project_overview'>
-            <Carousel activeIndex={index} onSelect={handleSelect} >
+            <Carousel>
                 <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="spotify"
                     src = {spotify}
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3><b>Full-Stack Enginnering:</b> Spotify Sharing Platform</h3>
+                    <h3><b>Full-Stack Enginnering: Spotify Sharing Platform</b></h3>
                     <p>Built with React, Express, NodeJs, and MongoDB</p>
                 </Carousel.Caption>
                 </Carousel.Item>
+
+
                 <Carousel.Item>
                 <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
+                    className="covid"
+                    src={covid}
                     alt="Second slide"
                 />
         
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3><b>Data Analysis: Covid-19 Daily Cases Comparison and Analysis</b></h3>
+                    <p>Conducted with Python standard data lib: NumPy, Pandas, matplotlib, and etc.</p>
                 </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+
+
+                {/* <Carousel.Item>
                 <img
                     className="d-block w-100"
                     src="holder.js/800x400?text=Third slide&bg=20232a"
@@ -50,7 +55,9 @@ function CarouselControll() {
                     Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                     </p>
                 </Carousel.Caption>
-                </Carousel.Item>
+                </Carousel.Item> */}
+
+                
             </Carousel>
         </div>
    
