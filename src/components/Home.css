@@ -1,15 +1,36 @@
 
+.intro {
+    cursor: url('../img/squre.png'), auto;
 
-.intro_text div{
-    padding-top: 10px;
+}
+.intro_text {
+    padding-top: 250px;
+    padding-left: 10px;
     color: whitesmoke;
-    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: x-large;
+    font-family:'Alumni Sans Inline One'
+
 }
 
+/* .intro_text :hover{
+    color: violet
+} */
+
 .intro_photo img {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 30px;
-    width: 20%;
+    width: 80%;
     position: relative;
 }
 
+
+.sig{
+    width: 90%;
+    padding-left: 300px;
+    padding-bottom: 10px;
+}
+
+#violet :hover {
+    color: #57068c;
+}
