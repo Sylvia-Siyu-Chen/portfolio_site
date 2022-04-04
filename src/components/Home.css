@@ -4,14 +4,16 @@
 
 }
 .intro_text {
-    padding-top: 250px;
-    padding-left: 10px;
+    padding-top: 70px;
+    padding-left: 30px;
     color: whitesmoke;
     text-align: left;
-    font-size: x-large;
+    font-size: 50px;
     font-family:'Alumni Sans Inline One'
 
 }
+
+
 
 /* .intro_text :hover{
     color: violet
@@ -24,6 +26,10 @@
     position: relative;
 }
 
+.intro_text span:hover{
+    color: #57068c;
+}
+
 
 .sig{
     width: 90%;
@@ -34,3 +40,25 @@
 #violet :hover {
     color: #57068c;
 }
+
+.bloc-logo {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .bloc-logo canvas,
+  .bloc-logo .logo-mask {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .logo-mask {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-size: contain;
+    /* background-image: url(../photos/lebron_transparent.png); */
+  }
