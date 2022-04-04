@@ -1,23 +1,77 @@
 
 .intro {
     cursor: url('../img/squre.png'), auto;
-
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: none;
+  }
+
+  .content {
+    color: #a2a2a2;
+    width: 25rem;
+  }
+
+  .bold {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+
 .intro_text {
-    padding-top: 70px;
-    padding-left: 30px;
+    padding-top: 200px;
+    padding-left: 40px;
     color: whitesmoke;
     text-align: left;
-    font-size: 50px;
-    font-family:'Alumni Sans Inline One'
-
+    font-size: 25px;
+    font-family:Lalezar;
 }
 
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  }
+
+  
 
 
-/* .intro_text :hover{
-    color: violet
-} */
+span {
+    transition: color 3s;
+  }
+  
+  span:hover {
+    transition: color 10ms;
+  }
+
+
+.intro_text #begin{
+    font-size: 35px;
+    font-family: Lalezar;
+}
+
+.intro_text span{
+    padding-left: 3px;
+}
+
+.intro_text #begin{
+    font-size: 50px;
+}
+
+.intro_text .red:hover{
+    color: rgb(173, 90, 90);
+}
+
+.intro_text .yellow:hover{
+    color: rgb(212, 212, 155);
+}
+
 
 .intro_photo img {
     padding-top: 200px;
@@ -26,10 +80,30 @@
     position: relative;
 }
 
-.intro_text span:hover{
-    color: #57068c;
+
+.my-icon {
+    font-size: 2rem;
+    color: #a2a2a2;
+    margin: 0.3rem;
+  }
+
+.intro_text .green:hover{
+    color: rgb(91, 139, 91);
 }
 
+
+.intro_text .blue:hover{
+    color: rgb(149, 180, 221);
+}
+
+.intro_text .pink:hover{
+    color: pink;
+    animation : none
+}
+
+.intro_text .orange:hover{
+    color: rgb(212, 192, 154);
+}
 
 .sig{
     width: 90%;
